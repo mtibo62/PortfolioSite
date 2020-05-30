@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Site-div{
+  //background-color:rgb(143, 133, 136);
+  height:100%;
+  background: linear-gradient(#EA645D, #727377);
+
+}
+
+#header-intro{
+  background-image: url("../img/filtered.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  box-shadow: 5px 10px 10px #0000008c;
+}
+
+#body-segments{
+  height: 100%;
 }
